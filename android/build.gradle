@@ -73,7 +73,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-process:$lifecycle_version"
     implementation "androidx.annotation:annotation:$annotation_version"
-
+    api project(':unityLibrary') 
     compileOnly rootProject.findProject(":flutter_plugin_android_lifecycle")
 
     // FOR DEV ONLY
