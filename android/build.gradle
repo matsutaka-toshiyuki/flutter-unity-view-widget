@@ -34,6 +34,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 34
+    namespace 'com.xraph.plugins.flutterunitywidget' 
 
     // backwards compatible for old gradle versions without namespace
     if (project.android.hasProperty("namespace")) {
